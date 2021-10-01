@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/form.css" />
+</head>
+
+<body>
+    <div id="homepage">
+        <div>
+            <h2>WELCOME TO INFO 6150 CLASS!</h2>
+            <div class="local-menu">
+                <ul class="menu">
+                    <li><a href="home">Home</a></li>
+                    <li><a href="syllabus">Syllabus</a></li>
+                    <li><a href="collaborations">Collaborations</a></li>
+                    <li><a href="people">People</a></li>
+                    <li><a href="discussions">Discussions</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>Please subscribe this class by filling your information. Thank you!</p>
+        <div class="menubar">
+            <form action="/some/url/" method="POST">
+                <label>Name: </label>
+                <input type="text" name="name" required>
+                <label>Email: </label>
+                <input type="text" name="email" required>
+                <div>
+                    <input type="checkbox" name="annoy_me">
+                    <label>Do you want us to send you annoying emails?</label>
+                </div>
+                <select name="tier" required>
+                    <option value="">Please select</option>
+                    <option value="1">Silver Tier</option>
+                    <option value="2">Gold Tier</option>
+                    <option value="3">Platinum Tier</option>
+                </select>
+                <button type="button">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
