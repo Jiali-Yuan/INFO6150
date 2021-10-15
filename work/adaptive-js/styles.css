@@ -28,6 +28,13 @@ header {
     border: 1px solid black;
 }
 
+.info__label {
+    position: relative;
+    top: -0.5rem;
+    left: 0.5rem;
+    background-color: white;
+}
+
 .add-form {
     grid-area: add-form;
     padding: 1rem;
