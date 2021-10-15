@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "main-content main-content"
+    "footer footer";
+    grid-template-columns: clamp(8rem, 30%, 12rem) auto;
+}
+
+header {
+    grid-area: header;
+}
+
+.main-content {
+    grid-area: main-content;
+    display: grid;
+    grid-template-areas:
+    "info info"
+    "add-form add-form";
+}
+
+.info {
+    grid-area: info;
+    border: 1px solid black;
+}
+
+.add-form {
+    grid-area: add-form;
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: 
+    "label label"
+    "add-form_submit add-form_submit";
+}
+
+.label {
+    grid-area: label;
+}
+
+.add-form_submit {
+    grid-area: add-form_submit;
+}
+
+button {
+    margin-top: 1rem;
+    width: 12rem;
+    height: 1.5rem;
+}
+
+h1 {
+    font-size: large;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/* Desktop changes */
+@media (min-width: 600px) {
+
+    body {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: auto 1fr;
+        grid-template-areas:
+        "header header"
+        "main-content main-content"
+        "footer footer";
+        margin: 1rem;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    .main-content {
+        grid-area: main-content;
+        display: grid;
+        grid-template-rows: auto 1fr;
+        grid-template-columns: auto 1fr;
+        grid-template-areas:
+        "info add-form"
+    }
+
+    .info {
+        grid-area: info;
+        padding: 0;
+        border: 1px solid black;
+    }
+
+    .add-form {
+        grid-area: add-form;
+        padding: 1rem;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: auto 1fr;
+        grid-template-areas: 
+        "label label"
+        "add-form_submit add-form_submit";
+    }
+
+    .label {
+        grid-area: label;
+    }
+
+    .add-form_submit {
+        grid-area: add-form_submit;
+    }
+
+    h1 {
+        font-size:xx-large;
+    }
+    button {
+        margin-top: 1rem;
+        width: 12rem;
+        height: 1.5rem;
+    } 
+}
