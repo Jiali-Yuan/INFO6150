@@ -1,0 +1,50 @@
+.posts {
+    list-style: none;
+}
+
+.post {
+    margin: 1.5rem;
+}
+
+.post-title {
+    font-size: x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid rgba(128, 128, 128, 0.253);
+    border-radius: 5px;
+    background-color: rgba(241, 103, 110, 0.158);
+}
+
+.post-comments {
+    list-style: none;
+    background-color: rgba(198, 177, 214, 0.267);
+}
+
+.post-body {
+    margin-top: 0.5rem;
+}
+
+.post-comments {
+    border: 0.5px solid rgba(128, 128, 128, 0.253);
+    border-radius: 3px;
+}
+
+.comment {
+    padding: 0.5rem;
+}
+
+h1 {
+    text-align: center;
+    font-family:fantasy;
+    color: saddlebrown;
+}
+
+.comment-name {
+    font-size: small;
+    color: gray;
+    font-style: italic;
+}
+
+.logo {
+    height: 150px;
+    width: 100%;
+}
