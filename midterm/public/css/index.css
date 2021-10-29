@@ -1,0 +1,52 @@
+#homepage {
+    display: grid;
+}
+
+body {
+    background-image: url('/image/welcome.jpeg');
+}
+
+h1, p{
+    text-align: center;
+    color: darksalmon;
+}
+
+p {
+    margin: 3rem;
+}
+
+.navi-manu {
+    margin-top: 5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.navi-manu a:hover {
+    background-color:rgb(192, 132, 184);
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.menubar {
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid  black;
+    border-radius: 1rem;
+}
+
+input:invalid {
+    box-shadow:0 0 1px 1px red;
+}
+
+select:invalid {
+    box-shadow:0 0 1px 1px red;
+}
+
+form {
+    display: grid;
+}

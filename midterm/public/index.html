@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Welcome INFO6150</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel = "icon" href="image/icon.png" type = "image/x-icon">
+</head>
+
+<body>
+    <div id="homepage">
+        <div>
+            <h1>WELCOME TO INFO 6150 CLASS!</h1>
+        </div>
+        <p>Please subscribe this class by filling your information. Thank you!</p>
+        <div class="menubar">
+            <form action="form" method="POST">
+                <label>Name: </label>
+                <input type="text" name="name" required>
+                <label>Email: </label>
+                <input type="text" name="email" required>
+                <div>
+                    <input type="checkbox" name="annoy_me">
+                    <label>Do you want us to send you annoying emails?</label>
+                </div>
+                <select name="semester" required>
+                    <option value="">Please select</option>
+                    <option value="1">2020 Spring Semester</option>
+                    <option value="2">2020 Fall Semester</option>
+                    <option value="3">2021 Spring Semester</option>
+                    <option value="4">2021 Fall Semester</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <span class="navi-manu"><a href="menu.html">Navigate to the home page!</a></span>
+    </div>
+</body>
+
+</html>
