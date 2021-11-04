@@ -1,0 +1,46 @@
+.app {
+  text-align: center;
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+
+}
+
+.count-button {
+  margin: 1rem;
+  background-color: burlywood;
+  border-radius: 0.1rem;
+}
+
+.count-button:hover {
+  background-color: yellowgreen;
+}
+
+
+/* Reorder component*/
+.reorder-button {
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  color: brown;
+  background-color: cadetblue;
+  margin: 1rem;
+}
+
+.reorder-button:hover {
+  background-color: chocolate;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+
+}
+
+
