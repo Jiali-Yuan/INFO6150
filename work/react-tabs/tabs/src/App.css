@@ -1,0 +1,46 @@
+.tabs {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 30rem;
+  border: 0.5px solid black;
+  border-bottom: none;
+}
+
+.tabs__title:hover {
+  background-color: #ccc;
+}
+
+.tabs__title {
+  position: relative;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  padding-right: 1.25rem;
+  border: none;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  font: inherit;
+  background-color: rgb(245, 172, 163);
+  text-align: left;
+}
+
+.tabs__title::after {
+  content: '\2795';
+  position: absolute;
+  right: 0.5rem;
+  top: calc(50% - 1ch);
+}
+
+.tabs__entry--open .tabs__title::after {
+  content: '\2796';
+}
+
+.tabs__body {
+  display: none;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+  background-color: rgba(222, 238, 203, 0.76);
+}
+
+.tabs__entry--open .tabs__body {
+  display: block;
+}
