@@ -1,0 +1,59 @@
+.cakes-page {
+    background-color: rgb(240, 234, 234);
+    height: 950px;
+}
+
+.cakes-list {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.cakes-item {
+    margin: 6.5rem;
+}
+
+.item-inner {
+    background-color: gray;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.cakes-item:hover .item-inner {
+    transform: rotateY(180deg);
+  }
+
+.item-front, .item-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.item-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.item-back {
+    background-color: rgb(28, 101, 173);
+    color: rgb(151, 104, 104);
+    transform: rotateY(180deg);
+}
+
+.item-back p {
+    color: rgb(26, 39, 95);
+    font-size: x-small;
+}
+
+.cakes-page h1{
+    color: rgb(204, 19, 111);
+    font-family: cursive;
+}
+
+.cakes-page p {
+    color: rgb(67, 182, 39);
+}
