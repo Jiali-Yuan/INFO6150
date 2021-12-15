@@ -34,6 +34,17 @@
 
 .login button {
     margin-top: 1rem;
+    background-color: #109e3a;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.4;
+    transition: 0.3s;
+}
+
+.login button:hover {
+  opacity: 1
 }
 
 .login h3 {

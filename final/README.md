@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Final Project - Sweet Station
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web application which helps people make desserts. The site contains an introduction page, which gives people a sight why and what we could do here. Users also could find different type of dessert recipes based on their interests. The site needs user to login before browsing. 
 
-## Available Scripts
+### Login page
 
-In the project directory, you can run:
+Requires user input `username`, `password`, and `city` your are in. All the fileds are required before navigate to the site. The values of `username` and `city` the user input will show on the website after user login!
+For the `username`, any values are the valid username except `dog`. If filled in all the input fileds and with `dog` username, `invalid` error message will appear.
+For the `password` and `city`, any values are the valid input.
+Login button contains transition effect (opacity and background color).
 
-### `npm start`
+### Complex UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+`MenuBar.jsx` file involves nested dropdown menus. Click nested link will nevigate to the corresponding page.
+`Cookies.jsx`, `Candies.jsx` and `Cakes.jsx` all contains flashcard style. Card will flip when mouse hovering on it.   
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Loading indicator
 
-### `npm test`
+The spinner loading indicator is in the `Login.jsx` file. We could see the spinner just after clicking `Login` butten in the login page and before website `home` page showing.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Images license terms
 
-### `npm run build`
+`Home` page image from `leopardstown`, https://www.leopardstown.com/terms/ (You may view, download for caching purposes only, and print pages from the website for your own personal use, subject to the restrictions set out below and elsewhere in these terms and conditions.)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`About Us` page image from `everydayhealth`, https://www.everydayhealth.com/privacyterms/#everyday-health-terms-of-use (You may print and download materials and information from the Sites solely for your personal use, provided that all hard copies contain all copyright and other applicable notices contained in such materials and information.)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`Cookies | Bars | Sundaes` page images from `simplifyingfamily`, https://simplifyingfamily.com/terms-and-conditions/ 
+(You may view, download (for caching purposes only), and print pages for your personal use, subject to the restrictions set out below and elsewhere in these Terms of Use. 
+The following uses are not permitted:
+Republication of content from the Website, unless content is specifically and expressly made available for republication; 
+Sale, rental or sub-license of any content from the Website;
+Reproduction or duplication of any content on the Website for commercial purposes; 
+Modification of any content on the Website, unless content is specifically and expressly made available for modification; 
+Redistribution of content of the Website, unless content is specifically and expressly made available for redistribution. Users are permitted to share content on social media channels, as long as a link to the Website is included.)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`Cakes | Plating` page images from `skinnyms`, https://skinnyms.com/terms-and-conditions (You may access, copy, download and print the material contained on the Site for Your personal and non-commercial use, provided You do not modify or delete any copyright, trademark or other proprietary notice that appears on the material You access, copy, download or print.)
 
-### `npm run eject`
+`Candies | Icecreem` page images from `meredith`, terms: https://www.meredith.com/legal/terms
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Cheesecake image from https://xn----7sbf6aar1amadg9c4e.xn--p1ai/raznoe-2/yablochnyj-chizkejk-karamelno-yablochnyj-chizkejk-reczept-evropejskaya-kuhnya-vypechka-i-deserty-eda.html (Copying and reprinting of site materials is possible only with an active direct link to our site)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Brownie sundae image from `nytimes` https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service#4, (You may download or copy the Content and other downloadable items displayed on the Services for your personal use only)
