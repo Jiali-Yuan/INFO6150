@@ -21,9 +21,9 @@ function pinkySwear({ value, withError }={}) {
     return promise;
   }
 
-export function fetchLogin(username, email, city) {
+export function fetchLogin(username, password, city) {
     if(username === 'dog') {
         return pinkySwear({ withError: 'invalidPassword' });
       }
-    return pinkySwear({ value: { ...users[username, email, city]}  });
+    return pinkySwear({ value: { ...users[username, password, city]}  });
   }
