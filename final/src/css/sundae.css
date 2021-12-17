@@ -1,0 +1,34 @@
+.sundae-page {
+    background-color: rgba(211, 184, 175, 0.795);
+}
+
+.sundae-page h1 {
+    color: rgb(119, 41, 28);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content {
+    display: flex;
+}
+
+.content p {
+    padding: 2rem;
+    color: rgb(19, 77, 95);
+    font-family:cursive;
+}
+
+.sundae-img {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    width: 30rem;
+}
+
+.ingredients p {
+    color: rgb(89, 138, 26);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.directions p {
+    color: rgb(26, 122, 102);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

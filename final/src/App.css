@@ -1,0 +1,9 @@
+.App {
+  background-image: './css/background-img.jpeg';
+  text-align: center;
+}
+
+.privacy-page {
+  text-align: left;
+  background-color: rgba(243, 241, 245, 0.13);
+}

@@ -1,0 +1,47 @@
+.why-body {
+    display: flex;
+}
+
+.why-body p {
+    padding: 2rem;
+    font-family: cursive;
+    color: green;
+}
+
+.about-why-img {
+    padding: 2rem;
+    width: 30rem;
+}
+
+.about-what-img {
+    padding: 2rem;
+    width: 30rem;
+}
+
+.what-body {
+    display: flex;
+}
+
+.what-body p {
+    padding: 2rem;
+    font-family: cursive;
+    color: chocolate;
+}
+
+.title-why {
+    background-color: rgb(233, 203, 176);
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 5px #88888841;
+}
+
+.title-what {
+    background-color: rgb(233, 203, 176);
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 5px #88888846;
+}

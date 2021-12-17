@@ -1,0 +1,34 @@
+.cheesecake-page {
+    background-color: rgba(247, 235, 194, 0.795);
+}
+
+.cheesecake-page h1 {
+    color: rgb(162, 122, 179);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content {
+    display: flex;
+}
+
+.content p {
+    padding: 2rem;
+    color: darkgreen;
+    font-family:cursive;
+}
+
+.cheesecake-img {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    width: 30rem;
+}
+
+.ingredients p {
+    color: darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.directions p {
+    color: darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
